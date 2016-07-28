@@ -1,0 +1,15 @@
+/*Nav Bar Css*/
+.navcol{
+	background-color:transparent;        								 /*Nav Bar Color*/
+	border:0px;
+}
+.navdis{
+	margin-right:83px;		/* Nav bar distance for right*/
+	font-size:17px;
+	font-family:sans-serif;
+}
+li:hover{
+	background-color:#6F5F5F;
+}
+.navbar-default .navbar-nav > li > a {color: #F9F6F6;}
+
