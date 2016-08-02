@@ -1,15 +1,80 @@
+
 /*Nav Bar Css*/
-.navcol{
-	background-color:transparent;        								 /*Nav Bar Color*/
+.navcol{        								 /*Nav Bar Color*/
 	border:0px;
+	background-color:black;
 }
 .navdis{
-	margin-right:83px;		/* Nav bar distance for right*/
-	font-size:17px;
+
+	font-size:17px;					/* Nav bar distance for right*/
 	font-family:sans-serif;
 }
 li:hover{
-	background-color:#6F5F5F;
+	background-color:RGBA(79, 167, 174, 0.58);
 }
 .navbar-default .navbar-nav > li > a {color: #F9F6F6;}
 
+/*Thumbnails after slider*/
+.tmcolor{
+	background-color:black;
+	width: 100%;                                  /*Thumbnails color*/
+	margin-top:-5px;
+}	
+.tmback{   												         
+  	text-align:center;
+	width: 100%;									/*Thumbnail body*/
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.tmnail{
+	margin-right: 50px; 
+	margin-left: 50px;                    /*div */
+	margin-top: 50px;
+	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+	color: whiite;
+}
+
+/* First Picture*/
+.suicide-squad{
+    background-image: url("suicide-squad.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+/*Second Picture*/
+.doctor-strange{
+    background-image: url("doctor-strange.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Our Team */
+.ourteam{
+	background-color:black;
+	width:100%;
+	color:#7e7162;
+	margin-top:-20px;
+}
+
+/*Third Picture*/
+.spiderman{
+	background-image: url("spiderman.jpg");
+	min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot{
+	background-color: black;
+	width: 100%;
+}
